@@ -1,0 +1,13 @@
+.checklist {
+    list-style-type: none;
+}
+
+.checklist .checked::before {
+    content: "☑ ";
+    margin-right: 8px;
+}
+
+.checklist li::before {
+    content: "☐ ";
+    margin-right: 8px;
+}
