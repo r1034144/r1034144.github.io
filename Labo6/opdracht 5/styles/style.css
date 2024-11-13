@@ -1,4 +1,9 @@
-.icoon {
-        padding-left: 20px;
-        background-image: url("r1034144.github.io/Labo6/opdracht 5/images/paperclip.svg");
+.icoonBefore a::before {
+    content: url("../images/paperclip.png");
+}
+
+.icoonImage{
+        padding-left: 16px;
+        background-image: url("../images/paperclip.png");
+        background-repeat: no-repeat;
     }
