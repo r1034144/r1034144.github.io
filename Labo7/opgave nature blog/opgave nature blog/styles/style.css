@@ -1,0 +1,40 @@
+body{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body>section>header{
+    height: 200px;
+    background-image: url("../header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body>section>header>h1{
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+    margin: 10px;
+}
+
+nav{
+    font-weight: bold;
+    background-color: darkslategray;
+}
+
+nav>a{
+    color: palegreen;
+    font-weight: bold;
+    padding: 5px;
+}
+
+article{
+    margin: 5px;
+    padding: 5px;
+    background-color: lightgray;
+}
+
+section>article>header{
+    font-size: 2em;
+}
