@@ -27,6 +27,7 @@ nav>a{
     color: palegreen;
     font-weight: bold;
     padding: 5px;
+    text-decoration: none;
 }
 
 article{
@@ -37,4 +38,6 @@ article{
 
 section>article>header{
     font-size: 2em;
+    text-decoration: underline;
+    color: darkslategray;
 }
