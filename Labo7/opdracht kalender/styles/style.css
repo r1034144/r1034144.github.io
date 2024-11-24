@@ -1,0 +1,42 @@
+table{
+    border: 3px solid black;
+    line-height: 50px;
+    border-collapse: collapse;
+    text-align: left;
+    font-size: 2em;
+}
+
+#Maand{
+    background-color: rgb(170,170,200);
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#Dag td{
+    color: rgb(200,190,240);
+    background-color: rgb(35,37,70);
+    border: 1px dashed rgb(200,190,240);
+}
+
+th, td{
+    border: 1px dashed black;
+    padding: 8px;
+}
+
+#Vrij{
+    background-color: rgb(250,120,120);
+}
+
+tbody tr .buiten{
+    color: dimgray;
+    background-color: gray;
+}
+
+td:first-child, td:last-child{
+    background-color: rgb(255, 220, 220);
+}
+
+.blauw{
+    color: blue;
+    text-decoration: underline;
+}
