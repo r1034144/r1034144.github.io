@@ -75,7 +75,16 @@ a{
     border-style: dashed;
     border-color: white;
     margin: 30px;
-    padding: 25px 25px 25px 80px;
+    padding: 25px;
     color: #444444;
     background: #a7cece url("../images/background.gif") no-repeat top left;
+    width: 60%;
+}
+
+.Vet{
+    font-weight: bold;
+}
+
+.Cursief{
+    font-style: oblique;
 }

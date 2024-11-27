@@ -1,0 +1,7 @@
+section{
+    width: 50%;
+    border: 1px black solid;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px;
+}
