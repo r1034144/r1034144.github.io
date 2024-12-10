@@ -1,0 +1,18 @@
+body{
+    margin:0px;
+    padding: 0px;
+    width:95%;
+}
+
+.row div:nth-child(2n+1){
+    background-color: lightgray;
+}
+
+.row div:nth-child(2n){
+    background-color: gray;
+}
+
+div{
+    height: 200px;
+    border: 10px solid white;
+}
